@@ -1,0 +1,525 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: none;
+}
+
+.long-logo {
+    display: none;
+}
+
+.navbar {
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .small-bar {
+    position: absolute;
+    left: 15px;
+}
+
+.logo-img {
+    scale: 0.5;
+}
+
+
+/* <!-- -------------page-1---------- --> */
+
+.page1 {
+    background-image: url(images/h2-background-img-2.jpg);
+    height: 90vh;
+    color: white;
+    background-position: center;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 55px;
+    padding: 0 10px;
+}
+
+.page1 h2 {
+    font-size: 40px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.container {
+    /* width: 325px; */
+    padding: 170px 50px;
+}
+
+.btn {
+    width: 150px;
+    margin: 40px 0;
+    border: 1px solid white;
+    padding: 20px 30px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+/* <!-- -------------page-2---------- --> */
+.page2 {
+    background-color: #fff0e9;
+}
+
+.page2 .box-1 {
+    background-image: url(images/h2-img-1.png);
+    width: 77vw;
+    background-size: 277px 337px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.btn-2 {
+    border: 1px solid black;
+}
+
+.page2 .container {
+    padding: 130px 50px 100px 50px;
+}
+
+p {
+    color: #777777;
+    word-spacing: 0.1rem;
+    font-size: 17px;
+}
+
+.page2 .pera {
+    width: 300px;
+}
+
+.page2 p {
+    line-height: 1.5rem;
+    margin: 20px 0;
+}
+
+.box-2 img {
+    width: 75vw;
+    margin: 55px 0;
+}
+
+/* <!-- -------------page-3---------- --> */
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3 .title {
+    flex-direction: column;
+    margin: auto;
+}
+
+.card h1 {
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.wid8 {
+    width: 80vw;
+}
+
+.page3 {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #777777;
+    width: 300px;
+    margin: 10px 40px;
+}
+
+.page3 .container {
+    padding-top: 100px;
+}
+
+.card-image {
+    background-image: url(images/card-1.jpg);
+    color: white;
+    height: 150px;
+    background-position: center;
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+.card-2 .card-image {
+    background-image: url(images/card-2.jpg);
+}
+
+.card-3 .card-image {
+    background-image: url(images/card-3.jpg);
+}
+
+.card p {
+    padding: 30px 50px;
+    line-height: 2.5rem;
+}
+
+.card .btn-2 {
+    margin: 10px auto 50px;
+}
+
+
+/* <!-- -------------page-4---------- --> */
+
+.page4 {
+    background-image: url(images/count-img-1.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.page4 .title {
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.page4 span {
+    font-size: 40px;
+}
+
+.page4 .count-title {
+    font-size: 20px;
+
+}
+
+.page4 .box {
+    margin: 40px 120px;
+}
+
+/* <!-- -------------page-5---------- --> */
+.page5 .title {
+    margin-bottom: 40px;
+}
+
+.page5 .card img {
+    width: 100%;
+    height: 100%;
+}
+
+.page5 .card {
+    margin-bottom: 10px;
+    border: none;
+}
+
+/* <!-- -------------page-6---------- --> */
+.page6 {
+    background-color: #fff0e9;
+}
+
+.page6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.page6 .card-image {
+    height: 300px;
+    margin: 0;
+}
+
+.page3 .row-fix,
+.page5 .row-fix,
+.page6 .row-fix,
+.page8 .row-fix {
+    flex-direction: row;
+}
+
+.page6 .card {
+    margin-top: 50px;
+    border: none;
+}
+
+.page6 .card h1 {
+    padding: 0;
+    margin: 10px 0 0 5px;
+}
+
+.page6 .card p {
+    padding: 0;
+}
+
+.page6 .links {
+    font-size: 16px;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+/* <!-- -------------page-7---------- --> */
+.page7 {
+    background-image: url(images/h2-background-img-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sml-container {
+    width: 80vw;
+    margin: auto;
+    padding: 55px 0 35px;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+
+.page7 h1 {
+    font-size: 25px;
+}
+
+.input {
+    border: none;
+    height: 55px;
+}
+
+.page7 .email {
+    width: 300px;
+    margin: 30px 0 12px;
+    padding: 10px 20px;
+}
+
+.page7 .submit {
+    width: 200px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+}
+
+/* <!-- -------------page-8---------- --> */
+.page8 {
+    padding: 100px 0 50px;
+}
+
+.page8 .card {
+    margin: 10px;
+}
+
+/* <!-- -------------page-9---------- --> */
+.footer1 {
+    background-color: #1b1b1b;
+    padding: 100px 0 50px;
+}
+
+.logo-footer {
+    width: 100px;
+    padding: 0 0 20px;
+}
+
+.inner-sub-footer {
+    width: 75vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer1 .fa {
+    color: #999;
+    padding: 15px;
+}
+
+.footer1 .box {
+    padding: 20px 0 0;
+}
+
+.footer1 h4 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+    font-size: 17px;
+    margin: 0 0 20px;
+}
+
+.footer1 p {
+    color: #999;
+    width: 75vw;
+    line-height: 1.5rem;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.ig-imgs {
+    flex-wrap: wrap;
+}
+
+.ig-img img {
+    width: 145px;
+    padding: 0 5px 0;
+    margin: 0 0 10px;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.footer .wid8 {
+
+    margin: auto;
+}
+
+.footer p {
+    color: #999;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* ------------------- */
+/* -------Media queries------------ */
+
+@media screen and (min-width:1000px) {
+    nav {
+        display: block;
+    }
+
+    .navbar {
+        height: 84px;
+        display: flex;
+        align-items: center;
+        margin: 0 35px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        text-transform: uppercase;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    nav ul li {
+        padding: 33px;
+        font-weight: 600;
+        font-size: small;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    nav li .fa {
+        scale: 1.6;
+    }
+
+    .page1 {
+        background-image: none;
+    }
+
+    .header {
+        background-image: url(images/h2-background-img-2.jpg);
+        height: 85vh;
+        background-size: cover;
+        color: white;
+    }
+
+    .small-bar {
+        display: none;
+    }
+
+    .long-logo {
+        display: block;
+    }
+
+    .short-logo {
+        display: none;
+    }
+    /* -----------------------------------page-1 */
+    .page1 h2{
+        font-size: 70px;
+    }
+    .page1 .container{
+        padding: 100px 150px ;
+    }
+    .page1 h1{
+        font-size: 65px;
+        width: 700px;
+        line-height: 4rem;
+    }
+    /* -----------------------------------page-2 */
+    .page2 p {
+        width: 500px;
+    }
+    .page2 .container{
+        width: 90vw;
+        padding: 100px 50px;
+        margin: auto;
+        display: flex;
+    }
+    .page2 .container img{
+        width: 600px;
+    }
+    .page2 .container .box{
+        flex: 1;
+    }
+    .page2 .container .box-1{
+        padding: 60px 0 0
+        ;
+    }
+    /* -----------------------------------page-3 */
+    .page3 .card{
+        width: 400px;
+        margin: 50px 10px;
+    }
+    /* -----------------------------------page-5 */
+    .page5 .card{
+        width: 310px;
+    }
+    /* -----------------------------------page-6 */
+    .page6 .card{
+        width: 300px;
+    }
+    /* -----------------------------------page-7 */
+    .page7 .email {
+        width: 600px;
+    }
+    /* -----------------------------------page-8 */
+    .page8 .card{
+        width: 400px;
+        margin: 10px;
+    }
+    /* -----------------------------------page-9 */
+
+    .page9{
+        
+    }
+    .page9 .inner-sub-footer{
+        display: flex;
+        width: 80vw;
+    }
+    .page9 p{
+        width: 270px;
+    }
+    .page9 .box{
+        width: 300px;
+    }
+    .ig-img img{
+        width: 100px;
+    }
+    /* -----------------------------------page-10 */
+}
